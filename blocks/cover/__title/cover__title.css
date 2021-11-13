@@ -5,6 +5,5 @@
   font-size: 72px;
   line-height: 76px;
   text-align: center;
-  padding-top: 245px;
-  padding-left: 312px;
+  z-index: 2;
 }
