@@ -4,5 +4,17 @@
   flex-direction: column;
   position: relative;
   align-items: center;
-  padding: 0;
+  padding: 0 148px 0;
+}
+
+@media screen and (max-width: 1279px) {
+  .lead {
+    padding: 0 48px 0;
+  }
+}
+
+@media screen and (max-width: 1023px) {
+  .lead {
+    padding: 0;
+  }
 }

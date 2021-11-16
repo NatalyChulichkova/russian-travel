@@ -23,11 +23,27 @@
   left: 0;
   background-color: #2A2C2F;
   background-size: cover;
-  opacity: 0.3;
+  opacity: .3;
 }
 
 .cover__link:hover::before {
-  opacity: 0.8;
+  opacity: .8;
   cursor: pointer;
   z-index: 1;
+}
+
+@media screen and (max-width: 1279px) {
+  .cover__link {
+    width: 1024px;
+    height: 640px;
+    padding:0;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .cover__link {
+    width: 320px;
+    height: 200px;
+    padding:0;
+  }
 }
