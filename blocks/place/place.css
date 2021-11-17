@@ -1,6 +1,8 @@
 .place {
   display: grid;
-  grid-template-columns: repeat(auto-fill, 460px);
+  grid-template-columns: repeat(auto-fill, 484px);
+  
+  /* grid-template-columns: minmax(320px, 1fr) 1.05fr; */
   grid-template-rows: minmax(min-content, max-content) 1fr;
   column-gap: 40px;
   row-gap: 48px;
@@ -9,6 +11,19 @@
 
 @media screen and (max-width: 1279px) {
   .place {
-   
+    column-gap: 32px;
+  }
+}
+
+@media screen and (max-width: 1023px) {
+  .place {
+    column-gap: 28px;
+    row-gap: 48px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .place {
+    row-gap: 32px;
   }
 }
