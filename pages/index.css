@@ -23,6 +23,7 @@
 @import url(../blocks/intro/__text/intro__text.css);
 @import url(../blocks/intro/__list/intro__list.css);
 @import url(../blocks/intro/__list-fact/intro__list-fact.css);
+@import url(../blocks/intro/__list-value/intro__list-value.css);
 
 /* Стили блока - photo-grid */
 @import url(../blocks/photo-grid/photo-grid.css);
@@ -50,4 +51,5 @@
 @import url(../blocks/footer/__navigation/footer__navigation.css);
 @import url(../blocks/footer/__link/footer__link.css);
 @import url(../blocks/footer/__links/footer__links.css);
+@import url(../blocks/footer/__links-item/footer__links-item.css);
 @import url(../blocks/footer/__copyright/footer__copyright.css);
